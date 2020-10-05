@@ -81,14 +81,14 @@ public class TrinomGenerator : MonoBehaviour
             }
             if(a==1)
             {
-                First_Num.text = "x ";
+                First_Num.text = "x²";
             }
             else if(a==-1)
             {
-                First_Num.text = "-x ";
+                First_Num.text = "-x²";
             }
             else
-            First_Num.text = a + "x" + " ";
+                First_Num.text = a + "x²" + " ";
             if (b >= 0)
             {
                 First_Num.text += "+"+ b+"x"+" ";
@@ -101,7 +101,7 @@ public class TrinomGenerator : MonoBehaviour
             }
             else
                 First_Num.text += c;
-
+            First_Num.text += " =0";
         }
     }
     private void Update()
